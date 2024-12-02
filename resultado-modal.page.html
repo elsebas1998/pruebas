@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Resultado</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h2>Resultado Final</h2>
+  <p><strong>Promedio Ponderado:</strong> {{ resultadoFinal }}</p>
+  <p><strong>Mensaje:</strong> {{ mensaje }}</p>
+  <ion-button expand="full" (click)="cerrarModal()" (click)="siguientePregunta()">Finalizar</ion-button>
+
+
+</ion-content>
